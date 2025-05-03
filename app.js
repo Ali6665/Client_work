@@ -21,7 +21,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   var personal_message = this.message.value.trim();
 
   if (name && email && Class && personal_message) {
-    document.getElementById('responseMsg').textContent = "Message sent successfully!";
+    document.getElementById('responseMsg').textContent = "From has been successfully!";
     console.log("✅ Message Sent:");
     console.log("Name:", name);
     console.log("Email:", email);
